@@ -1,5 +1,8 @@
 name: Sync with upstream
 on:
+  push:
+    branches:
+      - crate-dist
   schedule:
     - cron: "30 * * * *"
 
