@@ -257,3 +257,7 @@ For no icons at all, use the hidden `--no-icons` or `--icon never` args.
 
 * `sudo` is required to open and read Linux root\_hub string descriptors and potentially all devices if the user does not have [permissions](https://docs.rs/nusb/latest/nusb/#linux). The program works fine without these however, as will use sysfs/hwdb/'usb-ids' like lsusb. Use debugging `-z` to see what devices failed to read. The env CYME_PRINT_NON_CRITICAL_PROFILER_STDERR can be used to print these to stderr. `--lsusb --verbose` will print a message to stderr always to match the 'lsusb' behaviour.
 * Users cannot open special non-user devices on Apple buses (VHCI); T2 chip for example. These will still be listed with 'native' and `system_profiler` but not `--force-libusb`. They will not print verbose information however and log an error if `--verbose` is used/print if `--lsusb`.
+
+# Contributing
+
+Contributions are welcome. Note that the project follows the same [LLM usage policy](https://forge.rust-lang.org/policies/llm-usage.html) as the Rust project.
