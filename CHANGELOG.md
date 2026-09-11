@@ -1,5 +1,12 @@
 # Changelog
 
+## [3.0.2] - 2026-09-11
+
+### Fixed
+
+- profiler: fix class/protocol definitions for MCP ([#123](https://github.com/tuna-f1sh/cyme/pull/123)).
+- typos: fix typos in doc comments ([#122](https://github.com/tuna-f1sh/cyme/pull/122)).
+
 ## [3.0.1] - 2026-06-11
 
 ### Fixed
